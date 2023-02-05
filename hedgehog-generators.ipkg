@@ -1,0 +1,14 @@
+package bounded-doubles-hedgehog-generators
+
+authors = "Denis Buzdalov"
+
+license = "Apache-2.0"
+brief = "Hedgehog generators for bounded doubles"
+
+sourcedir = "gens"
+version = 0.1.0
+
+modules = Test.Hedgehog.BoundedDoubles
+
+depends = hedgehog
+        , bounded-doubles

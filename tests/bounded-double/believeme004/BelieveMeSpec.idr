@@ -5,6 +5,7 @@ import Data.Double.Bounded
 import Hedgehog
 
 import Test.Common
+import Test.Hedgehog.BoundedDoubles
 
 nat_cast_corr : Property
 nat_cast_corr = property $ do

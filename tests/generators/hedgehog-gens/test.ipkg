@@ -1,0 +1,8 @@
+package a-bounded-doubles-test
+
+depends = bounded-doubles-hedgehog-generators
+        , common-definitions-for-tests
+
+main = Spec
+
+executable = test

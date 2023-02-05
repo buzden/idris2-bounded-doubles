@@ -1,0 +1,13 @@
+package bounded-doubles
+
+authors = "Denis Buzdalov"
+
+license = "Apache-2.0"
+
+brief = "Doubles with type-level bounds"
+
+sourcedir = "src"
+
+version = 0.1.0
+
+modules = Data.Double.Bounded

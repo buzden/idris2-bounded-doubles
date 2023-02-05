@@ -5,6 +5,7 @@ import Data.Double.Bounded
 import Hedgehog
 
 import Test.Common
+import Test.Hedgehog.BoundedDoubles
 
 sp : (l ** u ** DoubleBetween l u)
 sp = (_ ** _ ** 1)

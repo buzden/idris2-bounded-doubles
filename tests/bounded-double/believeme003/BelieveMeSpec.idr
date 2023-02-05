@@ -5,6 +5,7 @@ import Data.Double.Bounded
 import Hedgehog
 
 import Test.Common
+import Test.Hedgehog.BoundedDoubles
 
 pol_corr : {f, g : _} -> (forall l, u. DoubleBetween l u -> DoubleBetween (f l) (g u)) -> Property
 pol_corr fn = property $ do

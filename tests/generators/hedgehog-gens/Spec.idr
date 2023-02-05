@@ -5,6 +5,7 @@ import Data.Double.Bounded
 import Hedgehog
 
 import Test.Common
+import Test.Hedgehog.BoundedDoubles
 
 numericDouble_gen_corr : Property
 numericDouble_gen_corr = property $ do

@@ -1,0 +1,14 @@
+[install]
+whitelist = [ "bounded-doubles-tests", "bounded-doubles-hedgehog-generators-tests" ]
+
+[custom.all.bounded-doubles]
+type = "local"
+path = "."
+ipkg = "bounded-doubles.ipkg"
+test = "tests/library-tests.ipkg"
+
+[custom.all.bounded-doubles-hedgehog-generators]
+type = "local"
+path = "."
+ipkg = "hedgehog-generators.ipkg"
+test = "tests/generators-tests.ipkg"

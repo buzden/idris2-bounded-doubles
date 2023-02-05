@@ -7,6 +7,7 @@ import Data.Double.Bounded
 import Hedgehog
 
 import Test.Common
+import Test.Hedgehog.BoundedDoubles
 
 lteRefl_prop : Property
 lteRefl_prop = property $ do

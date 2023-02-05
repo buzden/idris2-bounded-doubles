@@ -4,4 +4,4 @@ authors = "Denis Buzdalov"
 sourcedir = "."
 modules = Test.Common
 depends = hedgehog
-        , summary-stat
+        , bounded-doubles-hedgehog-generators
