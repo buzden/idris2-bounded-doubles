@@ -9,5 +9,6 @@ RunScriptArg where
 
 main : IO ()
 main = goldenRunner
-  [ "Bounded Double type" `atDir` "bounded-double"
+  [ "Documentation" `atDir` "docs"
+  , "Bounded Double type" `atDir` "bounded-double"
   ]
