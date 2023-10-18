@@ -1,11 +1,6 @@
-module RunnerBoundedDoubles
-
-import BaseDir
+module LibraryTests
 
 import Test.Golden.RunnerHelper
-
-RunScriptArg where
-  runScriptArg = baseTestsDir ++ "/.pack_lock"
 
 main : IO ()
 main = goldenRunner

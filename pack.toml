@@ -1,6 +1,3 @@
-[install]
-whitelist = [ "bounded-doubles-tests", "bounded-doubles-hedgehog-generators-tests" ]
-
 [custom.all.bounded-doubles]
 type = "local"
 path = "."
