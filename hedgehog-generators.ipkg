@@ -6,6 +6,7 @@ license = "Apache-2.0"
 brief = "Hedgehog generators for bounded doubles"
 
 sourcedir = "gens"
+builddir = ".build"
 version = 0.1.0
 
 modules = Test.Hedgehog.BoundedDoubles
