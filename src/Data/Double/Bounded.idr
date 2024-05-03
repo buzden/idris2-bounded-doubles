@@ -12,7 +12,7 @@ public export %inline
 OR : Type -> Type -> Type
 OR = Either
 
-infixr 0 `OR`
+export infixr 0 `OR`
 
 namespace DoubleUtils
 
