@@ -18,5 +18,12 @@ on:
 permissions: read-all
 
 jobs:
-  build-and-test:
+  build-and-test-bounded-doubles:
     uses: DepTyCheck/idris2-actions/.github/workflows/build-and-test.yml@v1
+    with:
+      ipkg_path: bounded-doubles.ipkg
+
+  build-and-test-hedgehog-generators:
+    uses: DepTyCheck/idris2-actions/.github/workflows/build-and-test.yml@v1
+    with:
+      ipkg_path: hedgehog-generators.ipkg
